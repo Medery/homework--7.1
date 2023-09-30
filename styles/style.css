@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-left: 130px;
+  margin-right: 130px;
+  background-color: #1B1A1B;
+  color: #FFFFFF;
+  font-family: Arial, sans-serif;
+}
+
+.wrapper {
+  width: 1200px;
+  padding: 30px;
+  margin: 0 auto;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start; 
+  align-items: flex-start;
+  width: 1180px;
+  height: 823px;
+  position: relative;
+}
+
+.text_banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  z-index: 1; 
+}
+
+.ft__banner {
+  font-size: 150px;
+  font-weight: 900;
+}
+
+.st_banner {
+font-size: 20px;
+
+}
+
+.ft__banner, .st_banner {
+  margin: 0;
+  position: relative;
+  z-index: 2;
+}
+
+.image_banner {
+  width: 675px;  
+  height: 762px; 
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+}
+
+#OurRooms {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+h2 {
+  font-size: 35px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.img_room {
+  margin-bottom: 60px;
+}
+
+#book {
+  margin-bottom: 100px;
+}
+
+#about p {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+
+#quote p:first-of-type {
+  text-transform: uppercase;
+  font-size: 3vw;
+}
+
+.purple-quote::before,
+.purple-quote::after {
+  content: '"';
+  color: #6C0287;
+  font-weight: 900;
+}
+
+.main_person {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 30px;;
+}
+
+.faq {
+  margin-bottom: 100px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items:left;
+}
+
+.contacts_center img {
+  width: 35px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.contacts_center {
+  display: flex;
+}
+
+.contacts_center:first-child {
+  margin-bottom: 50px;
+}
+
+.contacts_center:nth-child(2) {
+  margin-bottom: 100px;
+}
+
+.contacts_center div {
+  font-size: 20px;
+}
+
+.social_icons {
+  margin-top: 40px;
+}
+.social_icons img {
+  margin-right: 10px;
+}
